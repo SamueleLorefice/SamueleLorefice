@@ -15,3 +15,32 @@ jobs:
       - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Europe/Rome
+          base_indepth: true
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages: true
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: percentage, lines, bytes-size
+          plugin_languages_indepth: true
+          plugin_isocalendar: true
+          plugin_lines: true
+          plugin_lines_sections: base, history
+          plugin_habits: true
+          plugin_habits_charts: true
+          plugin_habits_charts_type: graph
+          plugin_followup: true
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: true
+          plugin_music: true
+          plugin_music_provider: lastfm
+          plugin_music_token: ${{ secrets.LAST_FM_API }}
+          plugin_music_mode: top
+          plugin_music_played_at: true
+          plugin_music_time_range: short
+          plugin_music_top_type: tracks
+          plugin_music_user: REDCODE
+          plugin_steam: true
+          plugin_steam_token: ${{ secrets.STEAM_API }}
+          plugin_steam_sections: profile, recently-played
+          plugin_steam_user: "76561198091332730"
+          
