@@ -1,5 +1,4 @@
-### Hi there 👋
-
+![](github-metrics.svg)
 <!--
 **SamueleLorefice/SamueleLorefice** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
