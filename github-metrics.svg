@@ -1672,6 +1672,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1708,7 +1713,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        12 hours played
+                                        15 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -1716,7 +1721,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/>
                                         </svg>
-                                        Last played on 27 Dec 2025
+                                        Last played on 28 Dec 2025
                                     </div>
                                 </div>
                                 <div class="achievements">
@@ -1725,7 +1730,17 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            5 / 46 achievements unlocked
+                                            6 / 46 achievements unlocked
+                                        </div>
+                                    </div>
+                                    <div class="achievement">
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAwYEBQcB/8QAKxAAAQMDAwMEAQUBAAAAAAAAAQIDBAUGEQASITFBURMUIkJhByMyUmSy/8QAFgEBAQEAAAAAAAAAAAAAAAAABAAC/8QAHxEBAAICAgMBAQAAAAAAAAAAAQIRAAMxQRMhURJh/9oADAMBAAIRAxEAPwDObzuKrMXNVY7FSlNttSXEJSHiAAFHjrqmgVGvVKU2y3WJCXHDtTvfVgnxxnn8fjQ79UE3vXgpQGJzwGTj7nQLaYkP1Jt+E2XvaqDh2rT8VYOw4JGRuA48DRfxGOq6OMcbpz3UrV/XCzqjWoUt2OurSFONHasofVgK7jJ7jUy2a7V1XDTW3anLW0qQ2FJL5II3DgjOqytx5LUkvS4vtlPqK9vqBeT9jkE9z01y2+Liph/0I/6GpjF1rRxkbJx3kbefr9/uaBbztOf/AFKupVQcmNtuuuKb9rFRIUT6pJ4UheBjuANPbbdttw5WxqozXHWgGlSaMMNkghJGxodTjznHGscSKlFuCoy4tLdkqfcVtWEqCkfLJKVDkZGQfIJHfTFDn3NjLNmyHEc4CW3toH0AAHAbPKB9DyNC2a/IiPR2YqL4bHm3p+5d3XSKRUWIHo0xxLjDSg6r2chgKUANx+COcEHOemkhdMap940Nlhgs73kKKSHQf5jB/cAPTxxppVU7kKAHLFkrPxBC0vFJH3BGOjnVz+566hxoFaqd00aXLt2RATHeSFuemtRUN+RuUodEj4jwkAdta1jrEX1T3kyNsio+7Os//9k=" alt="" />
+                                        <div>
+                                            <div class="name">
+                                                <div>Prepare to Drive</div>
+                                                <div class="unlocked">28 Dec 2025</div>
+                                            </div>
+                                            <div class="description">Win your first race.</div>
                                         </div>
                                     </div>
                                     <div class="achievement">
@@ -1739,18 +1754,8 @@
                                         </div>
                                     </div>
                                     <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAABQIDBAf/xAAsEAACAgEDAgUCBwEAAAAAAAABAgMEBQAGERIhEyIxYYEHURQWFyMyQXFS/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAIhEBAAIBAwMFAAAAAAAAAAAAAQIRAAMh8DFRcRKBkaGx/9oADAMBAAIRAxEAPwDnO89xZaDc2VrwZK1HHFZkRVExAADHt66JxuRy+RtpFNuCaqjc8ySzMVHA9j8aWkhtWPrLZgowwTWnysqRpOvVGD1N5iP76e7fGobi3L+GzFiltz9uus5Wa6satYuSdXnfnjsCeeABrBWxCES668M6ZqDJnqTQvp3+zB8rkMpQvyV4c7NbVAD40UrBW5HPHc86v2xncu+4cakuTtvE1iMMpnJBHUO3HOk6OXtCSl+Yzys8oapM8YFmDv5ZeeP488Dg+vfjsNFnx/1DU244YrAvKHWFelOQR3A9/X50CIwlEuuvDJyixlHUhNpTbfbzu+3fFq+Zgxf1jsZOVisK5KYs3/KsWXn46tG157W193RBq4ltUy8UAULH4gcMqSBgPMfMCGPPf/NYcxjMjbzN2WGlZlWSZ2BWMnnknTeNrbpNOOta2xYy1WIcRrYqSMYx9lcdwNPaiQjZSXlXopYSEpsa/fjMkK5Pee9Hhjh5t3HWObqAfwkQBWYsR24Cklu3f/dW3bVfI/VMz0mD1nyCLGw9GVSq9XzxzpW028BiJsbidr2MNVsDpnWlSkV5h9mkPm49tYdpbVzNfcONls4m7DFHYRmZ4GAADD27aVxpk0UUF87YQJMiJbuK88uf/9k=" alt="" />
                                         <div>
-                                            <div class="name">
-                                                <div>Time Lord</div>
-                                                <div class="unlocked">22 Dec 2025</div>
-                                            </div>
-                                            <div class="description">Complete 25 clean laps in Time Trial.</div>
-                                        </div>
-                                    </div>
-                                    <div class="achievement">
-                                        <div>
-                                            <div class="description ellipsis">+3 others...</div>
+                                            <div class="description ellipsis">+4 others...</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1761,7 +1766,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 27 Dec 2025, 01:07:22 (timezone Europe/Rome) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 Dec 2025, 01:08:16 (timezone Europe/Rome) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
