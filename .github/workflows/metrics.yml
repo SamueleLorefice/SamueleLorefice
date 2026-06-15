@@ -25,8 +25,8 @@ jobs:
           plugin_isocalendar: true
           plugin_lines: true
           plugin_lines_sections: base, history
-          plugin_habits: true
-          plugin_habits_charts: true
+          plugin_habits: false
+          plugin_habits_charts: false
           plugin_habits_charts_type: graph
           plugin_followup: true
           plugin_followup_sections: repositories, user
